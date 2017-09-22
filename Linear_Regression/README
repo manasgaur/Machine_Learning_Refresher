@@ -1,0 +1,20 @@
+We have modeled linear regression model from scratch using some basic python libraries.
+OUr code does not involve sci-kit learn linear regression implementation.
+We trained and tested our model over data from 2011 flu dataset covering 417 observation (students) with 18 features.
+
+The repository contains 
+-- python implementation of linear regression model
+-- data set and document information under Machine_learning folder
+-- All the visualization generated on experimental basis while training and testing the model are stored under Visualization folder
+-- A complete comprehensive documentation of this machine learning project (not user manual).
+-- Each python can be executed using : python <name_of_the_file>.py on the terminal
+or using pycharm or Anaconda.
+
+assignment1.py ---> Linear Regression with One Variable ----> Un-Normalized dataset
+assignment1a_with_normalization.py ---> Linear Regression with One Variable --> Normalized dataset
+assignment1b.py --> Linear Regression with Quadratic Feature (KnowlTrans and KnowlTrans Squared) --> Un-Normalized dataset
+assignment1b_with_normalization.py --> Linear Regression with Quadratic Feature (KnowlTrans and KnowlTrans Squared) --> Normalized dataset
+assignment1c.py --> Linear Regression with 2 Variables (KnowlTrans and RespEtiq) --> Normalized dataset
+( I did not experiment "assignment1c.py" with un-normalized dataset because the data type of both the features is different)
+
+Note : Features is an analogous term of Variables.

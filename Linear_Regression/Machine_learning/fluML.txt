@@ -1,0 +1,21 @@
+These data were collected in 2011 from 410 high school students from five high schools in the 
+Midwestern United States using a self-report survey methodology
+
+Student = Student Identifier
+Vaccin = Willingness to get flu vaccine (1 = low, 5 = high)
+HndWshQUal = Quality of hand washing (1 = low, 5 = high)
+HndWshFreq = Frequency of hand washing (1 = low, 5 = high)
+SocialDist = Willingness to keep a distance from others who are visibly ill (1 = low, 5 = high)
+NotTchFace = Ability to keep hands away from the face during the day ( 1 = low, 5 = high)
+RespEtiq = Respiratory etiquette, ability to keep germs contained during coughing or sneezing (1 = low, 5 = high)
+PrsnlDist = Willingness to isolate oneself from others when one is sick (1 = low, 5 = high)
+HandSanit= Frequency of hand sanitizer use during the day when available (1 = low, 5 = high)
+Risk = Perceived risk of contracting influenza (score in logits) 
+Complic = Perceived severity of complications from influenza (score in logits)
+Barriers = Obstacles one perceives preventing efforts to mitigate influenza (score in logits)
+Inefficacy = Lack of social responsibility for taking precautions against the flu (score in logits)
+KnowlTrans = Knowledge about how the flu is transmitted (score in logits)
+KnowlMgmt = Knowledge about how flu infections are managed (score in logits)
+Sick = The symptoms of respiratory illness one has experienced in the past year (0 = none; 1 = cold-like; 2 = flu-like)
+Flu = Whether or not a student reported flu-like symptoms in the past year (0 = no; 1 = yes)
+Gender = Whether the student is male or female (1 = female; 0 = male)
