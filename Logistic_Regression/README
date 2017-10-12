@@ -1,0 +1,21 @@
+We have modeled logistic regression model from scratch using some basic python libraries.
+OUr code does not involve sci-kit learn linear regression implementation.
+We trained and tested our model over data from 2011 flu dataset covering 417 observation (students) with 18 features.
+
+The repository contains 
+-- python implementation of logistic regression model
+-- data set and document information under Machine_learning folder
+-- All the visualization generated on experimental basis while training and testing the model are stored under Visualization folder
+-- A complete comprehensive documentation of this machine learning project (not user manual).
+-- Each python can be executed using : python <name_of_the_file>.py on the terminal
+or using pycharm or Anaconda.
+
+assignment2.py ---> Logistic Regression with One Variable (Risk mapped to Flu) ----> Normalized dataset
+
+assignment2b.py ---> Logistic Regression with Two Variables ( Risk, HndWshQual mapped to Flu) --> Normalized dataset
+
+assignment2b2.py --> Logistic Regression with Three Variable (KnowlTrans, HndWshQual, Risk mapped to Flu) --> Un-Normalized dataset
+
+assignment2b3.py --> Logistic  Regression with Four Variables (Gender, KnowlTrans, HndWshQual, Risk mapped to Flu) --> Un-Normalized dataset
+
+assignment2c.py --> Linear Regression with Three Varibale and Regularized Cost (optimization) Function using Frobenius norm --> Normalized dataset
