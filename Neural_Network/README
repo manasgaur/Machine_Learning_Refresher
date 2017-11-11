@@ -1,0 +1,22 @@
+Machine Learning Assignment on Neural Network. In this assignment , we developed and tested the Neural network on two different dataset : Wine (UCI) and Flu dataset. 
+Both the dataset are present under datasets folder (datasets/fluML.csv, datasets/wine.csv).
+The source code for the work have been pinned inside the folder "Python_notebook_souce_code". All the code is in .ipynb format with some textual content inside.
+If anyone want to use the python code (not the notebook) can use ( but do remove all the texual content) :
+jupyter nbconvert --to script <name of the file>.ipynb <name of the file>.py
+
+For testing the source code :
+cd Neural_Network
+type : jupyter notebook
+
+Information about the subfolder under Neural_Network:
+Python_notebook_souce_code : Contains 4 source code : 2 for wine dataset (One generating statistical performance of the classifier and other do ROC plot) and 2 for flu dataset.
+experimental_datasets : all the datasets created due to the experiments performed on wine and Flu datasets.
+plots_and_images : all the plots and snapshots taken during the experiments
+docs : contains the assignment information and the report generated as a result of the large number of experiments performed using NN. It is quite detailed and explanatory.
+
+The source code in this repository is for understanding and practice. There are various statements which are commented. You can uncommment them to see their impact on the results of the classifier. 
+There are many hyper-parameters encoded in the source code in a very crude way.
+
+Thanks
+Manas Gaur 
+   

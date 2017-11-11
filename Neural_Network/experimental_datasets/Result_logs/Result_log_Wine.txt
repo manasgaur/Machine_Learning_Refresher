@@ -1,0 +1,311 @@
+Results Re-formulated
+
+Wine Dataset 
+
+--------------------------------
+label 0 and label 1 :  Precision, Recall (TPR), f-score, FPR 
+output is in the form : tp, tn, fp, fn
+In this experiment, since precision and recall are same, f-score will be equal to Precision (or Recall) in every case.
+AA : Averaged Accuracy
+--------------------------------
+
+layer 1
+
+class 1 : accuracy  : 65.857
+for label 0: 116 0 59 0
+for label 1: 0 116 0 59
+
+class 2 :Accuracy of the Model is 60.000
+for label 0: 105 0 70 0
+for label 1: 0 105 0 70
+
+class 3: Accuracy of the Model is 73.143
+for label 0: 128 0 47 0
+for label 1: 0 128 0 47
+
+--------------------------------
+label 0 and label 1 :  tp : 349, tn: 349, fp:176, fn=176
+P = tp/tp+fp = 0.665
+R == TPR = tp/tp+fn = 0.665
+FPR = fp/fp+tn = 0.334
+AA : 66.34
+
+--------------------------------
+
+layer 2
+
+class 1 : Accuracy of the Model is 66.857
+for label 0: 117 0 58 0
+for label 1: 0 117 0 58
+
+class 2: Accuracy of the Model is 60.000
+for label 0: 105 0 70 0
+for label 1: 0 105 0 70
+
+class 3: Accuracy of the Model is 73.143
+for label 0: 128 0 47 0
+for label 1: 0 128 0 47
+
+------------------------------------
+label 0 and label 1: 350, 350, 175, 175
+P = 350/350+175 = 0.67
+R = 350/350+175 = 0.67
+FPR = 175/175+350 = 0.333 
+AA : 66.67
+------------------------------------
+
+layer 3
+
+class 1 : Accuracy of the Model is 67.614
+for label 0: 119 0 57 0
+for label 1: 0 119 0 57
+
+class 2: Accuracy of the Model is 60.227
+for label 0: 106 0 70 0
+for label 1: 0 106 0 70
+
+class 3: Accuracy of the Model is 73.714
+for label 0: 129 0 46 0
+for label 1: 0 129 0 46
+
+------------------------------------
+label 0 and label 1: 354, 354, 173, 173
+P = 354/354+173 = 0.672
+R = 354/354+173 = 0.672
+FPR = 173/173+354 = 0.328
+AA: 67.2
+------------------------------------
+
+
+Removed some features from the dataset. Dataset is still un-normalized. 
+1. Malic-Acid : this feature has outliers
+2. Ash : this feature has outliers
+3. Alcalinity of Ash : this feature has outliers and values are high
+4. Magnesium : this feature has abnormally high values and outliers
+5. Proanthocyanins : has outliers
+6. Color intensity : has outliers
+7. proline : abnormally high values
+
+layer 1
+
+class 1:Accuracy of the Model is 67.429
+for label 0: 118 0 57 0
+for label 1: 0 118 0 57
+
+class 2: Accuracy of the Model is 60.571
+for label 0: 106 0 69 0
+for label 1: 0 106 0 69
+
+class 3: Accuracy of the Model is 74.857 
+for label 0: 127 4 44 0
+for label 1: 4 127 0 44
+------------------------------------
+label 0 and label 1: 355 , 355, 170, 170
+P = 0.68
+R =0.68
+FPR = 0.323
+AA : 67.62
+------------------------------------
+
+layer 2
+
+class 1: Accuracy of the Model is 66.286
+for label 0: 116 0 59 0
+for label 1: 0 116 0 59
+
+class 2: Accuracy of the Model is 60.571
+for label 0: 106 0 69 0
+for label 1: 0 106 0 69
+
+class 3: Accuracy of the Model is 78.857
+for label 0: 126 12 35 2
+for label 1: 12 126 2 35
+
+------------------------------------
+label 0 and label 1: 360, 360, 165, 165
+P = 0.686
+R = 0.686
+FPR = 0.314
+AA : 68.6
+------------------------------------
+
+layer 3
+
+class 1: Accuracy of the Model is 66.857
+for label 0: 117 0 58 0
+for label 1: 0 117 0 58
+
+class 2:
+for label 0: 105 0 70 0
+for label 1: 0 105 0 70
+Accuracy of the Model is 60.000
+
+class 3: Accuracy of the Model is 79.429
+for label 0: 127 12 35 1
+for label 1: 12 127 1 35
+
+------------------------------------
+label 0 and label 1: 361, 361, 164, 164
+P = 0.69
+R = 0.69
+FPR = 0.31
+AA : 68.8
+------------------------------------
+
+Now, we will work on orignal dataset but normalized
+
+layer 1
+
+class 1: Accuracy of the Model is 78.857
+for label 0: 115 23 36 1
+for label 1: 23 115 1 36
+
+class 2: Accuracy of the Model is 85.143
+for label 0: 104 45 25 1
+for label 1: 45 104 1 25
+
+class 3: Accuracy of the Model is 95.429
+for label 0: 129 38 8 0
+for label 1: 38 129 0 8
+------------------------------------
+label 0 and label 1: 454, 454, 71, 71
+P = 454/525 = 0.865
+R = 454/525 = 0.865
+FPR = 71/525 = 0.135
+AA : 86.50
+------------------------------------
+
+layer 2
+
+class 1: Accuracy of the Model is 80.571
+for label 0: 117 24 34 0
+for label 1: 24 117 0 34
+
+class 2: Accuracy of the Model is 88.571
+for label 0: 106 49 20 0
+for label 1: 49 106 0 20
+
+class 3: Accuracy of the Model is 98.857
+for label 0: 129 44 1 1
+for label 1: 44 129 1 1
+------------------------------------
+label 0 and label 1: 469, 469, 56, 56
+P = 469/525 = 0.894
+R = 469/525 = 0.894
+FPR = 56/525 = 0.11
+AA : 89.34
+------------------------------------
+
+layer 3
+
+class 1: Accuracy of the Model is 83.429
+for label 0: 118 28 29 0
+for label 1: 28 118 0 29
+
+class 2: Accuracy of the Model is 97.143
+for label 0: 105 65 5 0
+for label 1: 65 105 0 5
+
+class 3: Accuracy of the Model is 98.857
+for label 0: 126 47 0 2
+for label 1: 47 126 2 0
+
+------------------------------------
+label 0 and label 1: 489, 489, 36, 36
+P = 489/525 = 0.932
+R = 489/525 = 0.932
+FPR = 36/525 = 0.07
+AA : 93.14
+------------------------------------
+
+
+Regularized Neural network ( testing the lambda )
+lambda = 0.01
+
+for label 0: 117 12 46 0
+for label 1: 12 117 0 46
+Accuracy of the Model is 73.714
+
+lambda = 0.1
+
+for label 0: 118 7 50 0
+for label 1: 7 118 0 50
+Accuracy of the Model is 71.429
+
+lambda = 0.001
+for label 0: 115 13 46 1
+for label 1: 13 115 1 46
+Accuracy of the Model is 73.143
+
+lambda = 0.0001
+for label 0: 119 20 36 0
+for label 1: 20 119 0 36
+Accuracy of the Model is 79.429
+
+-----------------------------------
+
+Regularized Neural Network
+
+layer 1
+
+class 1: Accuracy of the Model is 79.429
+for label 0: 119 20 36 0
+for label 1: 20 119 0 36
+
+class 2: Accuracy of the Model is 84.571
+for label 0: 106 42 27 0
+for label 1: 42 106 0 27
+
+class 3: Accuracy of the Model is 97.714
+for label 0: 126 45 3 1
+for label 1: 45 126 1 3
+------------------------------------
+label 0 and label 1: 458, 458, 67, 67
+P = 458/525 = 0.872
+R = 458/525 = 0.872
+FPR = 67/525 = 0.13
+AA : 87.24
+------------------------------------
+
+layer 2
+
+class 1: Accuracy of the Model is 81.714
+for label 0: 115 28 31 1
+for label 1: 28 115 1 31
+
+class 2: Accuracy of the Model is 93.143
+for label 0: 106 57 12 0
+for label 1: 57 106 0 12
+
+class 3: Accuracy of the Model is 99.429
+for label 0: 126 48 0 1
+for label 1: 48 126 1 0
+------------------------------------
+label 0 and label 1: 480, 480, 45, 45
+P = 480/525 = 0.914
+R = 480/525 = 0.914
+FPR = 45/525 = 0.09
+AA : 91.43
+------------------------------------
+
+layer 3
+
+class 1: Accuracy of the Model is 89.714
+for label 0: 116 41 17 1
+for label 1: 41 116 1 17
+
+class 2: Accuracy of the Model is 94.286
+for label 0: 106 59 10 0
+for label 1: 59 106 0 10
+
+class 3:
+for label 0: 127 47 0 1
+for label 1: 47 127 1 0
+Accuracy of the Model is 99.429
+------------------------------------
+label 0 and label 1: 496, 496, 29, 29
+P = 496/525 = 0.95
+R = 496/525 = 0.95
+FPR = 29/525 = 0.06
+AA : 94.5
+------------------------------------
